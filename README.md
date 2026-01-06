@@ -37,82 +37,8 @@ Before running this application, ensure you have:
   - [OpenWeather API](https://openweathermap.org/api) (Free tier available)
   - [News API](https://newsapi.org/) (Free tier available)
 
-## 🚀 Setup Instructions
 
-### 1. Clone or Download the Project
 
-Navigate to the project directory:
-```bash
-cd ASSignment2
-```
-
-### 2. Install Dependencies
-
-Install all required packages using npm:
-```bash
-npm install
-```
-
-This will install the following dependencies:
-- `express`: Web server framework
-- `axios`: HTTP client for API requests
-- `dotenv`: Environment variable management
-- `cors`: Cross-Origin Resource Sharing support
-
-### 3. Configure Environment Variables
-
-Create a `.env` file in the root directory of the project:
-
-```bash
-# Create .env file
-touch .env
-```
-
-Add the following content to the `.env` file:
-
-```env
-PORT=3000
-OPENWEATHER_API_KEY=your_openweather_api_key_here
-NEWS_API_KEY=your_news_api_key_here
-```
-
-**Important**: Replace `your_openweather_api_key_here` and `your_news_api_key_here` with your actual API keys.
-
-#### Getting API Keys:
-
-1. **OpenWeather API Key**:
-   - Visit [https://openweathermap.org/api](https://openweathermap.org/api)
-   - Sign up for a free account
-   - Navigate to API keys section
-   - Copy your API key
-
-2. **News API Key**:
-   - Visit [https://newsapi.org/](https://newsapi.org/)
-   - Sign up for a free account
-   - Copy your API key from the dashboard
-
-### 4. Start the Server
-
-Run the server using npm:
-```bash
-npm start
-```
-
-For development with auto-reload (if nodemon is installed):
-```bash
-npm run dev
-```
-
-The server will start on `http://localhost:3000` (or the port specified in your `.env` file).
-
-### 5. Access the Application
-
-Open your web browser and navigate to:
-```
-http://localhost:3000
-```
-
-## 📖 API Usage Details
 
 ### Weather API Endpoint
 
@@ -275,7 +201,7 @@ ASSignment2/
 
 ## 🧪 Testing the API
 
-You can test the API endpoints using:
+I can test the API endpoints using:
 
 1. **Browser**: Navigate to the URLs directly
 2. **cURL**: Use command-line tool
@@ -283,14 +209,6 @@ You can test the API endpoints using:
    curl http://localhost:3000/api/weather/London
    ```
 3. **Postman**: Import and test endpoints (see screenshot section)
-
-## 📸 Screenshots
-
-To complete your submission, please take screenshots of:
-
-1. **Web Application**: The main interface showing weather data and news
-2. **Postman/API Testing**: API responses from the endpoints
-3. **Responsive Design**: Application on different screen sizes (optional but recommended)
 
 ## 🔧 Troubleshooting
 
@@ -315,15 +233,12 @@ To complete your submission, please take screenshots of:
 - Some country codes may not return results
 - Check browser console for detailed error messages
 
-## 📝 License
 
-This project is created for educational purposes as part of Assignment 2.
-
-## 👤 Author
 
 Created as part of Assignment 2: Backend API Integration & Service Development
 
 ---
 
 **Note**: Remember to add your `.env` file to `.gitignore` if committing to version control to protect your API keys!
+
 
